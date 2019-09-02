@@ -1,3 +1,8 @@
+body {
+	font-family: Roboto;
+	background: #f12711;
+}
+
 h1 {
 	background: #2980b9;
 	color: white;
@@ -14,7 +19,13 @@ ul {
 	margin: 0;
 }
 
-body {
-	font-family: Roboto;
-	background: #f12711;
+li {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
 }
